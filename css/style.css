@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Young Serif';
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+    font-family: 'Outfit';
+    src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+  }
+
+/* General common style for body, main, strong, img and main title */
+
+body {
+    background-color: #f3e6d8;
+}
+
+main {
+    width: 50%;
+    padding: 3rem;
+    margin: 20px auto;
+    border-radius: 2rem;
+    background-color: #fff;
+}
+
+.main__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1.5rem 0;
+    font-family: 'Young Serif';
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 1.3rem;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* Style Preparation */
+
+.section__preparation {
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background-color: #fff5fa;
+    border-radius: 1.3rem;
+}
+
+.section__preparation-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #612c48;
+}
+
+.section__preparation-list {
+    padding: 1rem;
+}
+
+.section__preparation-list li {
+    padding: 0.5rem;
+    list-style: inside;
+}
+
+.section__preparation-list li::marker {
+    color:#612c48
+}
+
+/* Style Ingredients */
+
+.section__ingredients {
+    border-bottom: solid 1px #e4ded8;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section__ingredients-title {
+    padding: 0.5rem 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #5f574e;
+}
+
+.section__ingredients-list li {
+    list-style: inside;
+    padding: 0.5rem;
+}
+
+/* Style Instructions */
+
+.section__instructions {
+    border-bottom: solid 1px #e4ded8;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section__instructions-title {
+    padding: 0.5rem 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #5f574e;
+}
+
+.section__instructions-list { 
+    list-style: decimal;
+    list-style-position: outside;
+}
+
+.section__instructions-list li {
+    padding: 0.5rem;
+    margin-left: 30px;
+}
+
+/* Style Table */
+
+.section__nutrition-title {
+    padding: 0.5rem 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #5f574e;
+}
+
+.section__nutrition-table {
+    width: 100%;
+}
+
+.section__nutrition-table tr {
+    border-bottom: solid 1px #e4ded8;
+}
+
+.section__nutrition-table td {
+    padding: 1rem;
+}
